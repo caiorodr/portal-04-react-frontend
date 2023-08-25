@@ -462,7 +462,7 @@ export function Home() {
             label: "Notificações",
             children: <TabFrame 
               ref={iframeRef} 
-              src={"/notifications"} 
+              src={"https://caiorodr.github.io/portal-04-react-frontend/notifications"}
               title={"Notifications"}
               onLoad={() => {
                 sendNotificationToIframe();
